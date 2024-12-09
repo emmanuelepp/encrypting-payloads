@@ -2,6 +2,9 @@
 
 This repository provides multiple methods and examples for encrypting your implants.
 
+Note:
+This repository was created 100% with educational interest.
+
 ## XOR Encryption
 
 ### How to Test the `xor_encrypt` Function
