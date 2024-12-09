@@ -18,7 +18,7 @@ echo "My hyper duper cool payload!" > test.bin
 ```bash
 ./xorencrypt test.bin
 ```
-### View the Output
+### Output
 ```bash
 { 0x1f, 0x2a, 0x3b, 0x4c, 0x5d, 0x6e, 0x7f, 0x80, ... }
 ```
