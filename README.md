@@ -6,19 +6,20 @@ This repository provides multiple methods and examples for encrypting your impla
 
 ### How to Test the `xor_encrypt` Function
 
-# Compile the Program
+### Compile the Program
 ```bash
 g++ -o xorencrypt xor_encrypt.cpp
 ```
-# Create a Test File or Use Another One
+### Create a Test File or Use Another One
 ```bash
 echo "My hyper duper cool payload!" > test.bin
 ```
-# Execute the Program
+### Execute the Program
 ```bash
 ./xorencrypt test.bin
 ```
 ### View the Output
+```bash
 { 0x1f, 0x2a, 0x3b, 0x4c, 0x5d, 0x6e, 0x7f, 0x80, ... }
-
+```
 
