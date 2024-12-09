@@ -41,12 +41,12 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    // Read the entire content of the file into a string `data`
-    // `std::istreambuf_iterator` reads the file as a stream of bytes
+    // Read the entire content of the file into a string data
+    // std::istreambuf_iterator reads the file as a stream of bytes
     std::string data((std::istreambuf_iterator<char>(file)), {});
 
-    // Encrypt the data using the `xor_encrypt` function and the key `KEY`
-    // The result is stored in the string `encrypted`
+    // Encrypt the data using the xor_encrypt function and the key KEY
+    // The result is stored in the string encrypted
     std::string encrypted = xor_encrypt(data, KEY);
 
     std::cout << "{ ";
